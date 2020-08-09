@@ -8,5 +8,7 @@ n=int(input())
 for i in range(n):
   x, y = [int(x) for x in input().split()]  
   amt=x*y
-  if x>=100:
-    print(x-(0.2*x))
+  if x>100:
+    print(amt-(0.2*amt))
+  else:
+    print(amt)
